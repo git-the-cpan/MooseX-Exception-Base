@@ -3,32 +3,32 @@ abstract: 'Base class for exceptions'
 author:
   - 'Ivan Wills <ivan.wills@gmail.com>'
 build_requires:
-  Test::More: 0
-  Test::NoWarnings: 0
+  Test::More: '0'
+  Test::Warnings: '0'
 configure_requires:
-  Module::Build: 0.40
+  Module::Build: '0.38'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4001, CPAN::Meta::Converter version 2.112621'
+generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.143240'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: MooseX-Exception-Base
 provides:
   MooseX::Exception::Base:
     file: lib/MooseX/Exception/Base.pm
-    version: v0.0.3
+    version: v0.0.4
   MooseX::Exception::Base::Stringify:
     file: lib/MooseX/Exception/Base/Stringify.pm
-    version: v0.0.3
+    version: v0.0.4
 requires:
-  Moose: 0
-  Moose::Role: 0
-  Path::Class: 0
-  perl: 5.006
-  version: 0
+  Moose: '0'
+  Moose::Role: '0'
+  Path::Class: '0'
+  perl: '5.006'
+  version: '0'
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=MooseX::Exception::Base
   license: http://dev.perl.org/licenses/
   repository: git://github.com/ivanwills/MooseX-Exception-Base.git
-version: v0.0.3
+version: v0.0.4
