@@ -3,8 +3,8 @@
    "author" : [
       "Ivan Wills <ivan.wills@gmail.com>"
    ],
-   "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.421",
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.025, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -14,48 +14,48 @@
    },
    "name" : "MooseX-Exception-Base",
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Test::More" : "0",
-            "Test::Warnings" : "0"
-         }
-      },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::Pod" : "1.41",
+            "Test::Pod::Coverage" : "1.08"
          }
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
             "Moose" : "0",
             "Moose::Role" : "0",
-            "Path::Class" : "0",
-            "perl" : "5.006",
-            "version" : "0"
+            "overload" : "0",
+            "strict" : "0",
+            "version" : "0",
+            "warnings" : "0"
          }
-      }
-   },
-   "provides" : {
-      "MooseX::Exception::Base" : {
-         "file" : "lib/MooseX/Exception/Base.pm",
-         "version" : "v0.0.4"
       },
-      "MooseX::Exception::Base::Stringify" : {
-         "file" : "lib/MooseX/Exception/Base/Stringify.pm",
-         "version" : "v0.0.4"
+      "test" : {
+         "requires" : {
+            "Test::More" : "0",
+            "Test::Warnings" : "0"
+         }
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=MooseX::Exception::Base"
+         "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=MooseX-Exception-Base"
       },
-      "license" : [
-         "http://dev.perl.org/licenses/"
-      ],
+      "homepage" : "https://github.com/ivanwills/MooseX-Exception-Base",
       "repository" : {
-         "url" : "git://github.com/ivanwills/MooseX-Exception-Base.git"
+         "type" : "git",
+         "url" : "https://github.com/ivanwills/MooseX-Exception-Base.git",
+         "web" : "https://github.com/ivanwills/MooseX-Exception-Base"
       }
    },
-   "version" : "v0.0.4"
+   "version" : "0.0.5"
 }
+
