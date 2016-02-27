@@ -4,7 +4,7 @@
       "Ivan Wills <ivan.wills@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.025, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "Dist::Zilla version 5.037, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "perl_5"
    ],
@@ -56,6 +56,6 @@
          "web" : "https://github.com/ivanwills/MooseX-Exception-Base"
       }
    },
-   "version" : "0.0.5"
+   "version" : "0.0.6"
 }
 
